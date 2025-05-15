@@ -56,7 +56,7 @@ export default function App() {
           ))}
       </section>
       <button
-        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-transform transform hover:scale-110"
+        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold p-4 rounded-full shadow-lg transition-transform transform hover:scale-110"
         onClick={() => setIsModalOpen(true)}
       >
         +
